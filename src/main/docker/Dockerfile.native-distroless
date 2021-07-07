@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native-distroless -t quarkus/markdown2sqlite .
+# docker build -f src/main/docker/Dockerfile.native-distroless -t quarkus/polydata .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/markdown2sqlite
+# docker run -i --rm -p 8080:8080 quarkus/polydata
 #
 ###
 FROM quay.io/quarkus/quarkus-distroless-image:1.0

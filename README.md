@@ -10,3 +10,25 @@ Tech stack:
  * Sqlite
  * Flyway
 
+# Development
+
+Building project:
+```
+./gradlew build
+```
+
+Native project run:
+
+```
+./gradlew quarkusDev --quarkus-args='Potato'
+```
+
+Fat jar building:
+```
+./gradlew build -Dquarkus.package.type=uber-jar
+```
+
+Native application building:
+```
+./gradlew build -Dquarkus.package.type=native
+```
