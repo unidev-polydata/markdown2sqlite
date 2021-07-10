@@ -9,6 +9,9 @@ repositories {
 }
 
 dependencies {
+    implementation group:'org.xerial', name:'sqlite-jdbc', version:'3.36.0.1'
+    implementation "org.flywaydb:flyway-core:7.11.1"
+
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-picocli'
     implementation 'io.quarkus:quarkus-arc'
